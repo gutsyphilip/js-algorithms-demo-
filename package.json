@@ -1,0 +1,14 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "sample course setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Obosi Philip",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

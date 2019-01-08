@@ -1,0 +1,13 @@
+const vowelsCounter = require('./index');
+
+test('vowelsCounter is a function', () => {
+  expect(typeof vowelsCounter).toEqual('function');
+});
+
+test('returns the number of vowels found', () => {
+  expect(vowelsCounter('aeiou')).toEqual(5);
+});
+
+test('returns the number of vowels found when string is capitalized', () => {
+  expect(vowelsCounter('AEIOU')).toEqual(5);
+});

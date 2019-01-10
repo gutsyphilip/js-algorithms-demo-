@@ -1,7 +1,4 @@
-// METHOD 1
-// An iterative approach to counting the number of vowels in a
-// string of text.
-// 
+// ITERATIVE APPROACH
 const vowels = ["a", "e", "i", "o", "u"]
 
 
@@ -21,11 +18,7 @@ function vowelsCounter(text) {
     return counter
 }
 
-// ========================================================================================================================
-
-// METHOD 2
-// Using Regular Expressions to count the number of vowels in a 
-// string of text.
+// REGULAR EXPRESSIONS
 
 function vowelsCounter(text) {
     // Search text with Regex and store all matching instances 

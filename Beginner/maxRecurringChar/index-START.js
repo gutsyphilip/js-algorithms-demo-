@@ -4,8 +4,9 @@ e.g maxRecurringChar('aabacada') // will return 'a'
 */
 
 
+
 function maxRecurringChar(text) {
-   // Code goes here
+    // Code goes here
 }
 
 

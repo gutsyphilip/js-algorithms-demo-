@@ -1,27 +1,25 @@
 // USING A FOREACH LOOP
 function capSentence(text) {
-    let wordArray = text.toLowerCase().split(' ')
-    let capArray = []
+    let wordsArray = text.toLowerCase().split(' ')
+    let capsArray = []
 
-    wordArray.forEach(word => {
-        capArray.push(word[0].toUpperCase() + word.slice(1))
+    wordsArray.forEach(word => {
+        capsArray.push(word[0].toUpperCase() + word.slice(1))
     });
 
-    return capArray.join(' ')
+    return capsArray.join(' ')
 }
 
 
 // USING .MAP() AND .SLICE()
 
 function capSentence(text) {
-    let wordArray = text.toLowerCase().split(' ')
-    let capArray = []
-
-    wordArray.map((word)=>{
-        capArray.push(word[0].toUpperCase() + word.slice(1))
+    let wordsArray = text.toLowerCase().split(' ')
+    let capsArray = wordsArray.map(word=>{
+        return word[0].toUpperCase() + word.slice(1)
     })
 
-    return capArray.join(' ')
+    return capsArray.join(' ')
 }
 
 
@@ -29,12 +27,12 @@ function capSentence(text) {
 
 
 function capSentence(text) {
-    let wordArray = text.toLowerCase().split(' ')
-    let capArray = []
-
-    wordArray.map((word)=>{
-        capArray.push( word.replace(word[0], word[0].toUpperCase() ))
+    let wordsArray = text.toLowerCase().split(' ')
+    
+    let capsArray = wordsArray.map( word=>{
+      return  word.replace(word[0], word[0].toUpperCase())
     })
-
-    return capArray.join(' ')
-}
+  
+    return capsArray.join(' ')
+  }
+  

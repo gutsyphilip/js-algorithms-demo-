@@ -1,6 +1,6 @@
 /* CHALLENGE
-Given a string of text, return true or false indicating whether or not the text is a palindrome.
-e.g palindromeChecker('racecar') // will return true
+Given two strings of equal length, calculate and return the the hamming distance.
+E.g hammingDistance('rover', 'river') // should return 1
 */
 
 

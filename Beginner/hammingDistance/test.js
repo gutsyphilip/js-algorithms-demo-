@@ -1,6 +1,6 @@
 const hammingDistance = require('./index-START')
 
-test('vowelsCounter is a function', () => {
+test('hammingDistance is a function', () => {
   expect(typeof hammingDistance).toEqual('function')
 })
 

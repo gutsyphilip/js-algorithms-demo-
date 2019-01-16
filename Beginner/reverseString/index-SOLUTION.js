@@ -1,15 +1,17 @@
-// USING .SPLIT(), .REVERSE() & .JOIN()
+// CHAINING BUILT-IN METHODS
 
 function reverseString(text) {
     return text.split("").reverse().join("");
 }
 
-// USING .SPLIT(), .REVERSE() & .JOIN() USING ES6
+//  CHAINING BUILT-IN METHODS USING ES6
+
 function reverseString(text) {
     return [...text].reverse().join('');
 }
 
 // USING A FOR LOOP
+
 function reverseString(text) {
     let result = "";
     for (let i = text.length - 1; i >= 0; i--) {
@@ -19,6 +21,7 @@ function reverseString(text) {
 }
 
 // USING A FOR..OF LOOP IN ES6
+
 function reverseString(text) {
     let result = "";
     for (let char of text) {
@@ -28,6 +31,7 @@ function reverseString(text) {
 }
 
 // RECURSIVE METHOD
+
 function reverseString(text) {
     if (text === "") {
         return ""
@@ -38,6 +42,7 @@ function reverseString(text) {
 
 
 // USING .REDUCE()
+
 function reverseString(text) {
     return text.split("").reduce((acc, char) => char + acc);
 }

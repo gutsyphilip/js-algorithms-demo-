@@ -1,7 +1,7 @@
 /* 
- Given two or more arrays, write a function that combines
- their elements into one array without any repetition. 
- E.g  mergeArrays([1,2,3,3,3], [1,4,5,2]) // should return [1,2,3,4,5]
+ Given an array and a size, write a function that chunksit
+ into multilple arrays with a length based on the size when it's possible
+ E.g  chunkArray([1,2,3,4,5], 2) // should return [[1, 2], [3, 4], [5]]
 */
 
 function chunkArray(array, size) {
